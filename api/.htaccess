@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Handle Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+# Additional rule for LoanType.php
+RewriteRule ^LoanType\.php$ - [L]
+RewriteRule ^Borrower\.php$ - [L]
+RewriteRule ^payment\.php$ - [L]
+RewriteRule ^loandetais\.php$ - [L]

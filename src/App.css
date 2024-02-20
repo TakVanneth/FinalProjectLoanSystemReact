@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(0, 0, 0, 0.02)
+}
+.sidebar {
+    background: #515a6e !important;
+}
+/* Add this to your existing CSS files or create a new one */
+.fullscreen-container {
+    transition: all 0.3s;
+}
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    z-index: 1100;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.fullscreen-container-user {
+    transition: all 0.3s;
+}
+
+.fullscreen-user {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    z-index: 1100;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+
+
