@@ -4,16 +4,16 @@
 
 1. Clone the Repository :
 - Clone the repository using the following command in your terminal:
-### command code : git clone https://github.com/TakVanneth/FinalProjectLoanSystemReact.git
+### command line : git clone https://github.com/TakVanneth/FinalProjectLoanSystemReact.git
 
 2. Navigate to Project Directory:
 - Open your terminal, go to the cloned folder directory:
-### command code : cd FinalProjectLoanSystemReact
+### command line : cd FinalProjectLoanSystemReact
 
 3. Install Dependencies :
 - Make sure you have NodeJS installed. If not, download it here (https://nodejs.org/en/download/). Install dependencies using:
 - Install all dependencies by running this command in your terminal:
-### command code : npm install
+### command line : npm install
 
 # 2. Setting up the Database
 
@@ -45,7 +45,7 @@
 
 # 5. Run the Application!
 - To start the application, ensure that you are in the project folder, and then run the following command in your terminal:
-### command code : npm run dev
+### command line : npm run dev
 
 # 6. Login System 
 - Manager :
