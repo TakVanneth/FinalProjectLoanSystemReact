@@ -1,6 +1,6 @@
 # FinalProjectLoanSystemReact
 
-# Installation Instructions
+# 1. Installation Instructions
 
 1. Clone the Repository :
 - Clone the repository using the following command in your terminal:
@@ -15,12 +15,12 @@
 - Install all dependencies by running this command in your terminal:
 ### command code : npm install
 
-# Setting up the Database
+# 2. Setting up the Database
 
 1. Import SQL File :
 - import sql file from "db" folder into phpmyadmin or any mysql database management tool that you prefer.
 
-# Setting up the REST API
+# 3. Setting up the REST API
 
 1. Move API Folder :
 - Move folder api to htdocs (xampp) / htdocs (mamp) / www(wamp)/ or other server document root folder.
@@ -31,7 +31,7 @@
 3. Start your web server
 - Run your preferred web server software (e.g., Apache, nginx, etc.) and start serving the application. Ensure that your web server is configured to point to the project's directory or document root.
 
-# Connecting React to API
+# 4. Connecting React to API
 
 1. Open the project folder, find "vite.config.js," and modify the following code:
 - define: {
@@ -43,11 +43,11 @@
     BASE_API_URL: '"your-path-url-api"', // Replace your path URL here.
   },
 
-# Run the Application!
+# 5. Run the Application!
 - To start the application, ensure that you are in the project folder, and then run the following command in your terminal:
-# command code : npm run dev
+### command code : npm run dev
 
-# Login System 
+# 6. Login System 
 - Manager :
     - email : vannethtak03@gmail.com
     - password : vannethtak03@gmail.com
